@@ -1,0 +1,5 @@
+com\bit\page\RegistryPage.class
+com\bit\page\WeeklyAdd.class
+com\bit\data\SharedData.class
+com\bit\page\Shared.class
+com\bit\page\HomePage.class
