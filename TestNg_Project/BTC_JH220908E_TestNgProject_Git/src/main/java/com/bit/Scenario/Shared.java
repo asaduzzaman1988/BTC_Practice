@@ -1,4 +1,4 @@
-package com.bit.shared;
+package com.bit.Scenario;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +10,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Shared {
 
 	WebDriver dr;
+	
+	public Shared(WebDriver dr){
+		this.dr = dr;
+	}
 
 	public void myWait(long seconds) throws InterruptedException {
 		Thread.sleep(seconds);

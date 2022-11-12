@@ -2,11 +2,19 @@ package com.bit.test;
 
 import org.testng.annotations.Test;
 
+import com.bit.Scenario.HeaderValidation;
+
 public class SmokeTest extends BaseTest{
 	
+	HeaderValidation headerValidation;
+	
 	@Test(groups = "smokeTest")
-	public void targetSignUp() {
+	public void targerHeader() {
 		System.out.println("Test 1......................smokeTest");
+		headerValidation = new HeaderValidation(dr);
+		
+		headerValidation.verifyMyStoreModule();
+		
 	}
 
 	@Test(groups = "regressionTest")
