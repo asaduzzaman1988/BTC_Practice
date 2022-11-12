@@ -1,5 +1,8 @@
 package com.bit.test;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -11,7 +14,28 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 
 public class BaseTest {
+
+	public WebDriver dr;
 	
+	@BeforeTest
+	public void test3() {
+		System.out.println("Before");
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\User\\Downloads\\chromedriver_win32 (107.62)\\chromedriver.exe");
+		dr = new ChromeDriver();
+		dr.manage().window().setSize(new Dimension(1500,900));
+	}
+	
+	@AfterTest
+	public void test4() throws InterruptedException {
+		System.out.println("After");
+		Thread.sleep(5000);
+		dr.quit();
+	}
+	
+	
+/*	
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("beforemethod");
@@ -56,5 +80,5 @@ public class BaseTest {
 	@AfterSuite
 	public void afterSuite() {
 	}
-
+*/
 }
