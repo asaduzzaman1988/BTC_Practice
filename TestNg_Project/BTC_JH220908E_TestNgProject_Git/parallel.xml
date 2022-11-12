@@ -1,0 +1,12 @@
+<suite name="anyName" parallel="methods">
+
+	<test name="anyTestName">
+		<classes>
+			<class name="com.bit.test.SmokeTest"> </class>
+			<class name="com.bit.test.ParallelTest"> </class>
+			
+		</classes>
+
+	</test>
+
+</suite>

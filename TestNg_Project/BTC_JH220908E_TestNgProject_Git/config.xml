@@ -1,0 +1,76 @@
+<suite name="suite1">
+	
+<!--  How to run a package	
+	
+	<test name="Home Page validation">
+		<packages>
+			<package name="com.bit.test">  </package>
+			<package name="com.bit.shared">  </package>
+		</packages>
+	</test>
+-->
+
+	<!-- How to run a specific method 
+	<test name="test2">
+		<classes>
+			<class name="com.bit.test.SmokeTest">
+				<methods>
+					<include name="targetSignIn"></include>
+					<exclude name="targetSignUp"></exclude>
+				</methods>
+			
+			</class>
+		
+		</classes>
+	</test>
+-->
+<!-- 
+	<test name="group Test">
+		<classes>
+			<class name="com.bit.test.SmokeTest">
+				<methods>
+					<include name="targetSignIn"></include>
+					<exclude name="targetSignUp"></exclude>
+				</methods>
+			
+			</class>
+		
+		</classes>
+	</test>
+ -->
+ 
+ 
+ <!-- 
+ 
+  -->
+ 
+<test name="group Test">
+  <groups>
+    <run>
+      <exclude name="smokeTest"  />
+      <include name="regressionTest"  />
+    </run>
+  </groups>
+<!--  
+  <classes>
+    <class name="com.bit.test.SmokeTest">
+
+    </class>
+  </classes>
+ -->   
+  <packages>
+  	<package name="com.bit.test"> </package>
+  
+  
+  </packages>
+  
+  
+</test>
+
+
+
+
+
+
+
+</suite>
