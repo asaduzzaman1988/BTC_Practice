@@ -1,3 +1,6 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
 <suite name="suite1">
 	
 <!--  How to run a package	
@@ -47,8 +50,8 @@
 <test name="group Test">
   <groups>
     <run>
-      <exclude name="smokeTest"  />
-      <include name="regressionTest"  />
+      <include name="smokeTest"  />
+      <exclude name="regressionTest"  />
     </run>
   </groups>
 <!--  

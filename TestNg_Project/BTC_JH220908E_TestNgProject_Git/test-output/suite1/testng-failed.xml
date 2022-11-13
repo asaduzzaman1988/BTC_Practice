@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <test thread-count="5" name="group Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+        <exclude name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.bit.test.SmokeTest">
+        <methods>
+          <include name="targerHeader"/>
+        </methods>
+      </class> <!-- com.bit.test.SmokeTest -->
+    </classes>
+  </test> <!-- group Test(failed) -->
+</suite> <!-- Failed suite [suite1] -->
