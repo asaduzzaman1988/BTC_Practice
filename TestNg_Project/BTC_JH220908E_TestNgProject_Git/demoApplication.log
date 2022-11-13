@@ -14,3 +14,15 @@ ERROR 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:52) -
  INFO 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:54) - this is info
 DEBUG 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:55) - this is debug
 TRACE 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:56) - this is trace
+FATAL 2022-11-13 13:41:39,102[mm:ss] (AssertionPractice.java:log4JPractice:51) - this is fatal
+ERROR 2022-11-13 13:41:39,103[mm:ss] (AssertionPractice.java:log4JPractice:52) - this is error
+ WARN 2022-11-13 13:41:39,103[mm:ss] (AssertionPractice.java:log4JPractice:53) - this is warn
+ INFO 2022-11-13 13:41:39,103[mm:ss] (AssertionPractice.java:log4JPractice:54) - this is info
+DEBUG 2022-11-13 13:41:39,104[mm:ss] (AssertionPractice.java:log4JPractice:55) - this is debug
+TRACE 2022-11-13 13:41:39,104[mm:ss] (AssertionPractice.java:log4JPractice:56) - this is trace
+FATAL 2022-11-13 13:48:45,300[mm:ss] (AssertionPractice.java:log4JPractice:89) - this is fatal
+ERROR 2022-11-13 13:48:45,301[mm:ss] (AssertionPractice.java:log4JPractice:90) - this is error
+ WARN 2022-11-13 13:48:45,302[mm:ss] (AssertionPractice.java:log4JPractice:91) - this is warn
+ INFO 2022-11-13 13:48:45,302[mm:ss] (AssertionPractice.java:log4JPractice:92) - this is info
+DEBUG 2022-11-13 13:48:45,302[mm:ss] (AssertionPractice.java:log4JPractice:93) - this is debug
+TRACE 2022-11-13 13:48:45,302[mm:ss] (AssertionPractice.java:log4JPractice:94) - this is trace

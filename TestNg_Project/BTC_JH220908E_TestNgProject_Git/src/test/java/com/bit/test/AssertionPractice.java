@@ -37,6 +37,44 @@ public class AssertionPractice {
 	}
 
 	@Test
+	public void testassert2() {
+
+		// what is the difference between assert and verify
+
+		// soft assert
+		SoftAssert s = new SoftAssert();
+		s.assertFalse(1 > 4);
+		s.assertTrue(23 < 2);
+		s.assertEquals(22, 33);
+
+		// hard Assert
+		Assert.assertTrue(1 > 4);
+		Assert.assertFalse(1 < 2);
+		Assert.assertEquals("hi", "Hi");
+
+	}
+	
+	@Test
+	public void testassert1() {
+
+		// what is the difference between assert and verify
+
+		// soft assert
+		SoftAssert s = new SoftAssert();
+		s.assertFalse(1 > 4);
+		s.assertTrue(23 < 2);
+		s.assertEquals(22, 33);
+
+		// hard Assert
+		Assert.assertTrue(1 > 4);
+		Assert.assertFalse(1 < 2);
+		Assert.assertEquals("hi", "Hi");
+
+	}
+	
+	
+	
+	@Test
 	public void log4JPractice() {
 
 		

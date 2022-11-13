@@ -6,6 +6,8 @@
       <class name="com.bit.test.AssertionPractice">
         <methods>
           <include name="testassert"/>
+          <include name="testassert1"/>
+          <include name="testassert2"/>
         </methods>
       </class> <!-- com.bit.test.AssertionPractice -->
     </classes>
