@@ -6,8 +6,8 @@
 	xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
 	<appender name="fileAppender"
 		class="org.apache.log4j.FileAppender">
-		<param name="Threshold" value="Trace" />
-		<param name="File" value="test.txt" />
+		<param name="Threshold" value="Warn" />
+		<param name="File" value="myTest.txt" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n" />
 		</layout>

@@ -1,0 +1,16 @@
+[main] FATAL com.bit.test.AssertionPractice  - this is fatal
+[main] ERROR com.bit.test.AssertionPractice  - this is error
+[main] WARN  com.bit.test.AssertionPractice  - this is warn
+[main] INFO  com.bit.test.AssertionPractice  - this is info
+[main] FATAL com.bit.test.AssertionPractice  - this is fatal
+[main] ERROR com.bit.test.AssertionPractice  - this is error
+[main] WARN  com.bit.test.AssertionPractice  - this is warn
+[main] INFO  com.bit.test.AssertionPractice  - this is info
+[main] DEBUG com.bit.test.AssertionPractice  - this is debug
+[main] TRACE com.bit.test.AssertionPractice  - this is trace
+FATAL 2022-11-13 13:39:06,688[mm:ss] (AssertionPractice.java:log4JPractice:51) - this is fatal
+ERROR 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:52) - this is error
+ WARN 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:53) - this is warn
+ INFO 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:54) - this is info
+DEBUG 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:55) - this is debug
+TRACE 2022-11-13 13:39:06,689[mm:ss] (AssertionPractice.java:log4JPractice:56) - this is trace

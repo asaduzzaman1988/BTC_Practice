@@ -1,0 +1,6 @@
+2022-11-13 13:17:30,343 FATAL [AssertionPractice] this is fatal 
+2022-11-13 13:17:30,344 ERROR [AssertionPractice] this is error 
+2022-11-13 13:17:30,344 WARN  [AssertionPractice] this is warn 
+2022-11-13 13:17:30,344 INFO  [AssertionPractice] this is info 
+2022-11-13 13:17:30,344 DEBUG [AssertionPractice] this is debug 
+2022-11-13 13:17:30,344 TRACE [AssertionPractice] this is trace 
