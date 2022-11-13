@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -97,4 +98,61 @@ public class AssertionPractice {
 		//     [%t] %-5p %c %x - %m%n
 	}
 
+	
+	//This method will provide data to any test method that declares that its Data Provider
+	//is named "test1"
+	@DataProvider(name = "test1")
+	public Object[][] createData1() {
+		
+	 return new Object[][] {
+	   { "Cedric", new Integer(36) },
+	   { "Anne", new Integer(37)},
+	 };
+	}
+	 
+	//This test method declares that its data should be supplied by the Data Provider
+	//named "test1"
+	@Test(dataProvider = "test1")
+	public void verifyData1(String n1, Integer n2) {
+	 System.out.println(n1 + " " + n2);
+	}
+
+	
+	
+	@DataProvider(name = "any Name")
+    public Object[][] dataProviderMethod() {
+		
+        return new Object[][] { { "data one" }, { "data two" }, { "data three" } };
+    }
+	
+	@DataProvider(name = "bittech")
+    public Object[][] dataProviderMethod11() {
+		
+        return new Object[][] { { "data one" }, { "data two" }, { "data three" } };
+    }
+
+    @Test(dataProvider = "bittech")
+    public void testMethod(String data) {
+        System.out.println("Data is: " + data);
+    }
+	
+    @Test(dataProvider = "any Name")
+    public void testMethod22(String data) {
+        System.out.println("Data is: " + data);
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
