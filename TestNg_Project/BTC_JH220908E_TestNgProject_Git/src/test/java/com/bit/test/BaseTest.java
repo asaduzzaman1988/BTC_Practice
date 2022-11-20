@@ -22,7 +22,7 @@ public class BaseTest {
 		System.out.println("Before");
 		
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\User\\Downloads\\chromedriver_win32 (107.62)\\chromedriver.exe");
+				"C:\\Users\\User\\Downloads\\chromedriver_win32_107.53\\chromedriver.exe");
 		dr = new ChromeDriver();
 		dr.manage().window().setSize(new Dimension(1500,900));
 	}

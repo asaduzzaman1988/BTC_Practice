@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bit.test.AssertionPractice">
+      <class name="com.bit.test.SeleniumMethods">
         <methods>
-          <include name="testassert"/>
-          <include name="testassert1"/>
-          <include name="testassert2"/>
+          <include name="test"/>
+          <include name="test3"/>
+          <include name="test4"/>
         </methods>
-      </class> <!-- com.bit.test.AssertionPractice -->
+      </class> <!-- com.bit.test.SeleniumMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
