@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.bit.test.SmokeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.037 s <<< FAILURE! - in com.bit.test.SmokeTest
+test1(com.bit.test.SmokeTest)  Time elapsed: 5.018 s  <<< ERROR!
+java.lang.NullPointerException
+
+test1(com.bit.test.SmokeTest)  Time elapsed: 5.019 s  <<< ERROR!
+java.lang.NullPointerException
+
